@@ -23,5 +23,5 @@ export default function reducer(state=initialState,action){
             return {email,firstName,lastName};
         default:
             return state;
-        };
+        }
     }
